@@ -1,0 +1,251 @@
+﻿html {
+  color: #353940;
+}
+
+.member-list td>a {
+  display: block;
+  padding: 8px 15px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  -webkit-transition: color .3s
+}
+.account-list td>a:hover {
+  color: #FF5335;
+  -webkit-transition: color .3s
+}
+.member-list input[type="text"] {
+  border-radius: 0;
+}
+.member-list input[type="text"]:focus {
+  border-color: #FF5335;
+}
+.member-list input[type="password"] {
+  border-radius: 0;
+}
+.member-list input[type="password"]:focus {
+  border-color: #FF5335;
+}
+.member-list .account-list-options input[type="submit"] {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0;
+  border-color: #353940;
+  -webkit-transition: all .3s;
+}
+.member-list .account-list-options input[type="submit"]:hover {
+  background-color: #FF5335;
+  color: white;
+  border-radius: 0;
+  border-color: #FF5335;
+  -webkit-transition: all .3s;
+}
+
+.account-list td>a {
+  display: block;
+  padding: 8px 15px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  -webkit-transition: color .3s
+}
+.account-list td>a:hover {
+  color: #FF5335;
+  -webkit-transition: color .3s
+}
+.account-list input[type="text"] {
+  border-radius: 0;
+}
+.account-list input[type="text"]:focus {
+  border-color: #FF5335;
+}
+.account-list input[type="password"] {
+  border-radius: 0;
+}
+.account-list input[type="password"]:focus {
+  border-color: #FF5335;
+}
+.account-list .account-list-options input[type="submit"] {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0;
+  border-color: #353940;
+  -webkit-transition: all .3s;
+}
+.account-list .account-list-options input[type="submit"]:hover {
+  background-color: #FF5335;
+  color: white;
+  border-radius: 0;
+  border-color: #FF5335;
+  -webkit-transition: all .3s;
+}
+
+.account-creation {
+  max-width: 320px;
+  border-right: 1px solid #DFE0D4;
+}
+
+.account-creation input {
+  margin-bottom: 1.5em;
+}
+
+.account-creation input[type="text"] {
+  border-radius: 0;
+}
+
+.account-creation input[type="text"]:focus {
+  border-color: #FF5335;
+}
+
+.account-creation input[type="password"] {
+  border-radius: 0;
+}
+
+.account-creation input[type="password"]:focus {
+  border-color: #FF5335;
+}
+
+.account-creation input[type="submit"].button-primary {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0;
+  border-color: #353940;
+  -webkit-transition: all .3s;
+}
+
+.account-creation input[type="submit"].button-primary:hover {
+  background-color: #FF5335;
+  color: white;
+  border-radius: 0;
+  border-color: #FF5335;
+  -webkit-transition: all .3s;
+}
+
+.card {
+  float: left;
+  max-width: 240px;
+  margin: 2em;
+  padding: 2em;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(53, 57, 64, 0.10);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(53, 57, 64, 0.10);
+  box-shadow: 0px 0px 12px 2px rgba(53, 57, 64, 0.10);
+}
+
+.card hr {
+  margin: 1em 0;
+}
+
+.card .card-options a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color .3s
+}
+
+.card .card-options a:hover {
+  color: #FF5335;
+  -webkit-transition: color .3s
+}
+
+.card .card-body {
+  background-color: white;
+}
+
+.card .card-body .body-summary hr {
+  margin: .5em 0;
+}
+
+.card .card-body .body-summary h5 {
+  margin: 0;
+}
+
+.card .card-body .body-summary p {
+  color: #3E92A3;
+}
+
+.card .card-body .body-summary p>span {
+  display: block;
+}
+
+.form-login {
+  padding-top: 4em;
+}
+
+.form-login input {
+  margin-bottom: 3em;
+}
+
+.form-login input[type="text"] {
+  border-radius: 0;
+}
+
+.form-login input[type="text"]:focus {
+  border-color: #FF5335;
+}
+
+.form-login input[type="password"] {
+  border-radius: 0;
+}
+
+.form-login input[type="password"]:focus {
+  border-color: #FF5335;
+}
+
+.form-login input[type="submit"].button-primary {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0;
+  border-color: #353940;
+  -webkit-transition: all .3s;
+}
+
+.form-login input[type="submit"].button-primary:hover {
+  background-color: #FF5335;
+  color: white;
+  border-radius: 0;
+  border-color: #FF5335;
+  -webkit-transition: all .3s;
+}
+
+.brand-name {
+  color: #FF5335;
+  font-weight: bold;
+  margin-right: 118px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.nav ul {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 1.5em 0 0 0;
+  list-style: none;
+  border-bottom: 1px solid #FF5335;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  padding: 8px 15px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  -webkit-transition: color .3s
+}
+
+.nav li a.nav-active {
+  color: #FF5335;
+  -webkit-transition: color .3s;
+}
+
+.nav li a:hover {
+  color: #FF5335;
+  -webkit-transition: color .3s
+}
